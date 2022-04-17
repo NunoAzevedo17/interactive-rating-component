@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/NunoAzevedo17/interactive-rating-component](https://github.com/NunoAzevedo17/interactive-rating-component)
-- Live Site URL: [https://nunoazevedo17.github.io/interactive-rating-component](https://nunoazevedo17.github.io/interactive-rating-component)
+- Live Site URL: [https://interactive-rating-component-mauve.vercel.app](https://interactive-rating-component-mauve.vercel.app)
 
 ## My process
 
