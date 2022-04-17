@@ -42,4 +42,4 @@ Users should be able to:
 ## Author
 
 - Website - [nunoazevedo.vercel.app](https://nunoazevedo.vercel.app)
-- Frontend Mentor - [@NunoAzevedo17](https://www.frontendmentor.io/profile/@nunoAzevedo17)
+- Frontend Mentor - [@NunoAzevedo17](https://www.frontendmentor.io/profile/NunoAzevedo17)
