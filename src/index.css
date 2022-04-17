@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #fc7614;
+  --white-color: #ffffff;
+  --light-grey-color: #969fad;
+  --medium-grey-color: #7c8798;
+  --dark-blue-color: #262e38;
+  --very-dark-blue-color: #131518;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: var(--very-dark-blue-color);
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: calc(100% - 48px);
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  max-width: 412px;
+  min-height: 360px;
+}
+
+.title {
+  font-size: 24px;
+  color: var(--white-color);
+  line-height: 30px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--light-grey-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 416px;
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,107 @@
+.container {
+  padding: 24px 24px 32px 24px;
+}
+
+.iconStar {
+  border-radius: 50%;
+  background-color: var(--dark-blue-color);
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.iconStar > img {
+  width: 13px;
+  height: 13px;
+  width: 13.96px;
+  height: 13.33px;
+}
+
+.container > h1 {
+  margin: 0 0 11px 0;
+}
+
+.container > p {
+  margin: 0 0 28px 0;
+}
+
+.cardButtonsRating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cardButtonsRating > button {
+  width: 42px;
+  height: 42px;
+  background: var(--dark-blue-color);
+  border: none;
+  border-radius: 50%;
+  color: var(--medium-grey-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cardButtonsRating > button:hover {
+  background-color: var(--medium-grey-color);
+  color: var(--white-color);
+}
+
+.cardButtonsRating > button.selected {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.buttonSubmit {
+  width: 100%;
+  background: var(--primary-color);
+  border-radius: 22.5px;
+  border: none;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.86667px;
+  height: 45px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 32px 39px 32px 32px;
+  }
+
+  .container > h1 {
+    margin-bottom: 9px;
+  }
+  .iconStar {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 36px;
+  }
+
+  .iconStar > img {
+    width: 16.75px;
+    height: 16px;
+  }
+
+  .cardButtonsRating {
+    margin-bottom: 31px;
+  }
+
+  .cardButtonsRating > button {
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+  }
+
+  .buttonSubmit {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+}
